@@ -1,0 +1,240 @@
+body {
+    background-color: #F5F5F5;;
+    font-family: 'Roboto', sans-serif;
+}
+.bgdotopo {
+    display: flex;
+    justify-content: center;
+    height: 54px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.centralizar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 935px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+.conteudo-todo {
+    display: flex;
+}
+header {
+    height: 54px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ion-icon {
+    height: 25px;
+    width: 30px;
+}
+.itens-barratopo {
+    display: flex;
+    align-content: center;
+}
+.linha-vertical {
+    width: 1px;
+    margin: 0px 10px;
+    height: 25px;
+    background-color: #DBDBDB;
+}
+.barra-pesquisa {
+    text-align: center;
+    border: 1px solid #DBDBDB;
+    height: 28px;
+    width: 235px;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+}
+.item-topo {
+    margin: 0px 10px;
+}
+.conteudo-esquerda {
+    width: 614px;
+}
+.barra-stories {
+    overflow: hidden;
+    height: 118px;
+    background-color: #FFFFFF;
+    margin-top: 88px;
+    display: flex;
+    border: 1px solid #DBDBDB;
+    border-radius: 3px;
+    margin-bottom: 24px;
+}
+.conteudo-direita {
+    display: fixed;
+    margin-top: 88px;
+    margin-left: 30px;
+    width: 293px;
+    height: 540px;
+
+}
+.imgstories {
+    margin-top: 18px;
+    margin-inline: 14px;
+}
+.barra-stories p {
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+}
+.coluna-posts {
+    background-color: blue;
+}
+.imgsfeed {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3px;
+    border: 1px solid #DBDBDB;
+    margin-bottom: 60px;
+    background-color: tomato;
+}
+.imagefeed {
+    width: 612px;
+}
+.autorfeed {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #262626;
+}
+.autorfeed > img {
+    width: 32px;
+    height: 32px;
+    margin-left: 17px;
+}
+.autorfeed > p {
+    margin-left: 15px;
+}
+.legendaicones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.iconesesquerda {
+    display: flex;
+    flex-direction: row;
+}
+.item-legenda {
+    margin-right: 10px;
+}
+.legendacurtidos {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 17px;
+}
+.legendacurtidos > p {
+    margin-left: 5px;
+}
+.imgcurtidas {
+    width: 20px;
+    height: 20px;
+}
+.infoconta {
+    height: 95px;
+    background-color: #F5F5F5;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.textocinza {
+    color: #8E8E8E;
+}
+.descricaoconta {
+    margin-left: 15px;
+}
+.toposugestoes {
+    display: flex;
+    justify-content: space-between;
+}
+.sugestoesconta {
+    margin-top: 11px;
+}
+a {
+    text-decoration: none;
+}
+.nomecontas {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.textosugestoes {
+    margin-left: 10px;
+    justify-content: center;
+}
+.textoseguir {
+    margin-top: 10px;
+}
+.fontconta {
+    color: #262626;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.seguevoce {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 5px;
+}
+.infoadicionais {
+    margin-top: 33px;
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+}
+.creditos {
+    margin-top: 18px;
+    color: #C7C7C7;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+}
+@media (max-width: 934px) {
+    .conteudo-direita {
+        display: none;
+    }
+    .conteudo-esquerda {
+        display: flex;
+        flex-direction: column;
+        width: 100vh;
+        align-items: center;
+    }
+    header {
+        width: 100vw;
+    }
+}
+@media (max-width: 614px) {
+    
+}
