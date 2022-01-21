@@ -1,6 +1,7 @@
 body {
     background-color: #F5F5F5;;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 .bgdotopo {
     display: flex;
@@ -17,6 +18,17 @@ body {
     align-items: center;
     height: 100%;
     width: 935px;
+}
+.seta-stories {
+    position: absolute;
+    right: 20px;
+    top: 43px;
+    box-shadow: 0px 3px 6px;
+    border-radius: 80%;
+    height: 26px;
+    width: 26px;
+    color: rgb(112, 105, 105);
+    background-color: gray;
 }
 main {
     display: flex;
@@ -38,7 +50,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    z-index: 2;
+    z-index: 3;
 }
 ion-icon {
     height: 25px;
@@ -78,6 +90,7 @@ ion-icon {
     border-radius: 3px;
     margin-bottom: 24px;
     width: 614px;
+    position: relative;
 }
 .conteudo-direita {
     margin-top: 88px;
@@ -88,8 +101,8 @@ ion-icon {
     float: right;
 }
 .imgstories {
-    margin-top: 18px;
-    margin-inline: 14px;
+    margin-top: 23px;
+    margin-inline: 12px;
 }
 .barra-stories p {
     text-align: center;
@@ -265,10 +278,17 @@ a {
 @media (max-width: 614px) {
     .barra-stories {
         width: 100vw;
-        margin-top: 44px;
-        margin-bottom: 0px;
+        margin-top: 54px;
+        margin-bottom: 20px;
         border: none;
         height: 50%;
+        background-color: #f5f5f5;
+    }
+    .seta-stories {
+        display: none;
+    }
+    .texto-instagramDesktop {
+        display: none;
     }
     .coluna-posts {
         margin-top: 0px;
