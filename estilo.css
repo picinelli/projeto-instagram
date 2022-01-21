@@ -38,10 +38,14 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    z-index: 2;
 }
 ion-icon {
     height: 25px;
     width: 30px;
+}
+.icone-topo {
+    margin-left: 15px;
 }
 .itens-barratopo {
     display: flex;
@@ -64,9 +68,6 @@ ion-icon {
 .item-topo {
     margin: 0px 10px;
 }
-.conteudo-esquerda {
-    width: 614px;
-}
 .barra-stories {
     overflow: hidden;
     height: 118px;
@@ -76,14 +77,15 @@ ion-icon {
     border: 1px solid #DBDBDB;
     border-radius: 3px;
     margin-bottom: 24px;
+    width: 614px;
 }
 .conteudo-direita {
-    display: fixed;
     margin-top: 88px;
     margin-left: 30px;
     width: 293px;
     height: 540px;
-
+    right: 480px;
+    float: right;
 }
 .imgstories {
     margin-top: 18px;
@@ -94,8 +96,6 @@ ion-icon {
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
-}
-.coluna-posts {
 }
 .imgsfeed {
     background-color: #FFFFFF;
@@ -116,6 +116,10 @@ ion-icon {
     font-weight: 600;
     font-size: 14px;
     color: #262626;
+    justify-content: space-between;
+}
+.trespontos {
+    margin-right: 15px;
 }
 .autorfeed > img {
     width: 32px;
@@ -129,12 +133,13 @@ ion-icon {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: 10px;
 }
 .iconesesquerda {
     display: flex;
     flex-direction: row;
+    top: 5px;
 }
 .item-legenda {
     margin-right: 10px;
@@ -143,7 +148,8 @@ ion-icon {
     display: flex;
     align-items: center;
     margin-top: 10px;
-    margin-left: 17px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 .legendacurtidos > p {
     margin-left: 5px;
@@ -171,6 +177,7 @@ ion-icon {
 }
 .sugestoesconta {
     margin-top: 11px;
+    width: 293px;
 }
 a {
     text-decoration: none;
@@ -179,6 +186,17 @@ a {
     display: flex;
     justify-content: space-between;
     margin-top: 17px;
+}
+.nomecontas > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nomecontas > p {
+    color: #139EF2; 
+    font-size: 14px; 
+    font-weight: 500;
+    padding-top: 10px;
 }
 .textosugestoes {
     margin-left: 10px;
@@ -218,6 +236,18 @@ a {
     font-weight: normal;
     font-size: 11px;
 }
+.coluna-sugestoes {
+    position: fixed;
+}
+.infoadicionais {
+    position: fixed;
+    margin-top: 380px;
+    width: 293px;
+}
+.creditos {
+    position: fixed;
+    margin-top: 430px;
+}
 @media (max-width: 934px) {
     .conteudo-direita {
         display: none;
@@ -226,6 +256,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-right: 0px;
     }
     header {
         width: 100vw;
@@ -234,7 +265,6 @@ a {
 @media (max-width: 614px) {
     .barra-stories {
         width: 100vw;
-        
         margin-top: 44px;
         margin-bottom: 0px;
         border: none;
@@ -245,6 +275,7 @@ a {
     }
     .conteudo-esquerda {
         width: 100vw;
+        margin-right: 0px;
     }
     header .linha-vertical {
         display: none;
