@@ -19,6 +19,16 @@ body {
     height: 100%;
     width: 935px;
 }
+.centralizarMobile {
+    display: flex;
+    height: 54px;
+    width: 100%;
+    background-color: #FFFFFF;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+}
 .seta-stories {
     position: absolute;
     right: 20px;
@@ -59,6 +69,9 @@ ion-icon {
 }
 .icone-topo {
     margin-left: 15px;
+}
+.someDesktop {
+    margin-right: 10px;
 }
 .itens-barratopo {
     display: flex;
@@ -272,6 +285,9 @@ a, a:hover, a:visited, a:active {
 }
 @media (min-width: 614px) {
     .someDesktop {
+        display: none;
+    }
+    footer {
         display: none;
     }
 }
