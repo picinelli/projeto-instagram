@@ -6,7 +6,7 @@
     <img src="https://bootcampra.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fce86f290-5a6f-413a-868b-0a2ccf46bd5a%2F1384886.png?table=block&id=94d7bc4c-a0a6-4432-a503-4079ac85827b&spaceId=f797e032-5eb2-4c9d-beb7-cd7181e19e47&width=250&userId=&cache=v2" alt="Logo" width="100">
   </a>
 
-<h3 align="center">Projeto - Instagram (FRONT-END)</h3>
+<h3 align="center">Projeto - Instagram</h3>
   <h4 align="center"> 
 	🚀 Concluído! 🚀
   </h4>
